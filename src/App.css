@@ -1,0 +1,32 @@
+.app-wrapper {
+  margin: auto;
+  width: 1300px;
+  display: grid;
+
+  grid-template-areas:                         /* Разбивка */
+  "h h"
+  "n c";
+
+  grid-template-rows: 60px 1fr;                /* количество строк */
+  grid-template-columns: 2fr 10fr;             /* количество колонок */
+  /* grid-gap: 10px; */
+}
+
+.header {
+grid-area: h;                                  /* псевдоним */
+background-color: aquamarine;
+}
+
+.header img {
+  width: 100px;
+}
+
+.nav {
+grid-area: n;
+background-color: coral;
+}
+
+.content {
+grid-area: c;
+background-color: cornsilk;
+}
