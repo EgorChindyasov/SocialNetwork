@@ -1,0 +1,17 @@
+.nav {
+    height: 250px;
+    width: 100px;
+    grid-area: n;
+    background-color: #dfedf7;
+    margin-left: 100px;
+    }
+
+.item {
+    color: #34a2eb;
+    padding-top: 10px;
+}
+
+.menu {
+     text-align: center;             /* выравнивание текста */
+     padding-top: 30px;
+}

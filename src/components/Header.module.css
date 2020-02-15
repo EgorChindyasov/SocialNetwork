@@ -1,8 +1,0 @@
-.header {
-    grid-area: h;                                  /* псевдоним */
-    background-color: aquamarine;
-    }
-    
-    .header img {
-      width: 100px;
-    }

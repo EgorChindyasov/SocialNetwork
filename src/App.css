@@ -1,7 +1,11 @@
 .app-wrapper {
-  margin: auto;
-  width: 1300px;
+  margin: 0 auto;
+  height: 1100px;
+  width: auto;
   display: grid;
+
+  background-color: #dfedf7;
+
 
   grid-template-areas:                         /* Разбивка */
   "h h"
