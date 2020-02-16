@@ -11,6 +11,11 @@
     padding-top: 10px;
 }
 
+.item a {
+    color: rgb(41, 131, 233);
+    text-decoration: none;
+}
+
 .menu {
      text-align: center;             /* выравнивание текста */
      padding-top: 30px;

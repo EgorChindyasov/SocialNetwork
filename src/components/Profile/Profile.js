@@ -9,6 +9,7 @@ const Profile = () => {
                 <img src="https://ps.w.org/360-image/assets/banner-772x250.jpg?rev=1933038" />
             </div>
             <MyPosts />
+
         </div>
     );
 }
